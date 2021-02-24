@@ -1,3 +1,4 @@
+require("dotenv").config();
 module.exports = {
   siteMetadata: {
     title: `Novela by Narative`,
@@ -40,8 +41,8 @@ module.exports = {
         basePath: "/",
         authorsPage: true,
         sources: {
-          local: true,
-          // contentful: true,
+          //local: true,
+          contentful: true,
         },
       },
     },
