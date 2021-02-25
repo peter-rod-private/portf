@@ -1,4 +1,5 @@
 require("dotenv").config();
+
 module.exports = {
   siteMetadata: {
     title: `Novela by Narative`,
